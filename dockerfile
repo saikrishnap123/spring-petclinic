@@ -1,4 +1,4 @@
 FROM lolhens/baseimage-openjre
-ADD target/springpetclinicApp.jar springpetclinicApp.jar
+ADD target/springbootApp.jar springbootApp.jar
 EXPOSE 80
-ENTRYPOINT ["java", "-jar", "springpetclinicApp.jar"]
+ENTRYPOINT ["java", "-jar", "springbootApp.jar"]
